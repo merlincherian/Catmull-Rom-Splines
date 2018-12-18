@@ -1,0 +1,16 @@
+Merlin Cherian
+CS 536
+HW 2 - Catmull-Rom Splines
+
+
+This program, evaluates a 3D Catmull-Rom spline and approximates it with a polyline. The program will read in an arbitrary number of 3D points along with the tangents at the first and last points, and will fit a Catmull-Rom spline to them. 
+
+# Specifications
+  - The program is written in Python on Mac and the main executable file is name CG_hw2
+  - The u increment (a real number between 0 and 1) is specified by the -u du argument. Default value: 0.05
+  - The radius of the spheres is specified by the -r radius argument. Default value: 0.1
+  - Each Bezier curve is parameterized from 0 to 1, and will have degree N - 1.
+
+# Execution
+      Run the Makefile to create the executable and then run the following command:
+      ./CG_hw2 -f filename -u du -r radius -t tension > out.iv
